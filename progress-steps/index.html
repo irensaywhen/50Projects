@@ -12,13 +12,24 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Ny project</title>
+    <title>Progress steps</title>
   </head>
   <body>
-    <h1>Project starter</h1>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+      </div>
+
+      <button class="btn" id="prev" disabled>Previous</button>
+      <button class="btn" id="next">Next</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
