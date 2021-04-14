@@ -23,7 +23,7 @@ h1 {
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 20vh;
   transform: translateX(-50%);
   white-space: nowrap;
 }
@@ -34,7 +34,7 @@ h1 {
   align-items: center;
   justify-content: center;
   left: 50%;
-  top: 60%;
+  top: 50vh;
   transform: translateX(-50%);
   text-decoration: none;
   color: #fff;
